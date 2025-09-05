@@ -1,0 +1,22 @@
+
+.container{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 600px 600px;
+    background-color: lightgray;
+    gap: 25px;
+}
+
+.item {
+	background-color: lightblue;
+	text-align: center;
+	padding:25px ;
+	border-radius: 25px;
+    list-style-image: img · max-width: 100%; height: auto; ;  
+}
+
+.grid-container{
+      display: grid;
+      justify-content: space-between;	
+}
+
